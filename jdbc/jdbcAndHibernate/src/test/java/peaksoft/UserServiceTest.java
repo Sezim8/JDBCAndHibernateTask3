@@ -83,6 +83,7 @@ public class UserServiceTest {
         } catch (Exception e) {
             Assert.fail("При попытке достать всех пользователей из базы данных произошло исключение\n" + e);
         }
+
     }
 
     @Test
